@@ -1,0 +1,46 @@
+body{
+ /*UPDATE: add a background color or image here*/
+background-color: rgb(245, 211, 118);
+text-align: center;
+}
+p {
+  padding-top: 0;
+  font-size: 2em;
+}
+ /*UPDATE: change the text size, color, font (optional) here*/
+
+  #titleText{
+    text-align: center;
+    font-size: 3em;
+    font-family: Arial Rounded MT Bold;
+    text-color: black;
+  } 
+  /*UPDATE: center align the text here*/
+  .mainImages{
+  width: 30em; 
+  /*center image*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em
+}
+
+#inspirationButton{
+   /*center button. display as a block element*/
+  display: block;
+  margin: 0 auto;
+
+   /*add spacing within the content of the button*/
+  padding: 10px; 
+
+   /*add color*/
+  background-color: white;
+
+  /*button size*/
+  font-size: 24px;
+  color:rgb(7, 7, 66);
+
+   /*rounded buttons*/
+  border-radius: 4px;
+}
+
